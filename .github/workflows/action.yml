@@ -3,6 +3,8 @@ on:
   push:
     branches: 
         - master 
+        - bugfix
+        - develop
 jobs:
   build:
     name: Build simple project
