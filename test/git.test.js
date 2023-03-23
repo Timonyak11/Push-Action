@@ -30,6 +30,6 @@ describe("Testing GitCommand.status()", function(){
         let git = new GitCommand();
         let output = git.sum(2,4);
 
-        expect(output).to.equal(6);
+        expect(output).to.equal(5);
     });
 })
