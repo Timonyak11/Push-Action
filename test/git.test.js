@@ -25,4 +25,11 @@ describe("Testing GitCommand.status()", function(){
 
         expect(output).to.equal('You have 0 change/s.\n');
     });
+
+    it('Should return sum of 2 integers', function(){
+        let git = new GitCommand();
+        let output = git.sum(2,4);
+
+        expect(output).to.equal(5);
+    });
 })
